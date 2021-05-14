@@ -1,6 +1,6 @@
 import React from 'react';
 import { Canvas } from 'react-three-fiber';
-import { editable as e, configure } from '../../';
+import { editable as e, configure } from 'react-three-editable';
 import { PerspectiveCamera } from '@react-three/drei';
 
 const bind = configure();
